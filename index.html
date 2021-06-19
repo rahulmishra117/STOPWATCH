@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!-- Including the google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>STOPWATCH</title>
+  </head>
+  <body>
+    <!-- Top nav of the Stopwatch -->
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <!-- With a iamge icon and a link -->
+        <a class="navbar-brand" href="/index.html">
+          <img
+            src="https://img-premium.flaticon.com/png/128/771/premium/771495.png?token=exp=1623861589~hmac=2679e44248886705402d7026428dd3c6"
+            alt=""
+            width="30"
+            height="24"
+            class="d-inline-block align-text-top"
+          />
+          STOPWATCH
+        </a>
+      </div>
+    </nav>
+    <div>
+      <!-- Create the jumbotron -->
+      <div class="jumbotron">
+        <!-- Left part with Title and functionality -->
+        <div class="left_val">
+          <div>
+            <h2>STOPWATCH</h2>
+            <p>START ,STOP,RESET</p>
+          </div>
+        </div>
+        <!-- Right part with image icon -->
+        <div class="right_val">
+          <img
+            src="https://cdn.dribbble.com/users/829077/screenshots/4634803/flying_clock.gif"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- STOPWATCH SECTION -->
+
+    <!-- We just add 3 button in the card and one result -->
+    <div class="stopwatch-card">
+      <h2>STOPWATCH</h2>
+      <center>
+        <div class="wrapper">
+          <p class="result-stop">
+            <span id="seconds">00</span>:<span id="tens">00</span>
+          </p>
+          <div class="button-container">
+            <button id="button-start">START</button>
+            <br />
+            <button id="button-stop">STOP</button>
+            <br />
+            <button id="button-reset">RESET</button>
+          </div>
+        </div>
+      </center>
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    </div>
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> </a>
+      </div>
+    </nav>
+<!-- Including the external JS file have funcitonlity of start,stop,reset -->
+    <script src="./JS/index.js"></script>
+  </body>
+</html>
